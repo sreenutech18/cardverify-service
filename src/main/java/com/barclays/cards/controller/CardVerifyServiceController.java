@@ -33,10 +33,6 @@ public class CardVerifyServiceController {
 								   @RequestHeader("request-id") String requestId,
 								   @RequestHeader("msg-ts") String messageTs) {
 		
-		//1. Get the request from client 
-		//2. validate the request, if it is in invalid then throw the exception else
-		//3. prepare the request for service and call service
-		//4. get the response from service
 		
 		CardResponse cardResponse = new CardResponse();
 		cardResponse.setRespCode("0");
