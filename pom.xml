@@ -46,5 +46,19 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<distributionManagement>
+          <repository>
+			<id>deployment</id>
+			<name>internal  release</name>
+			<url>http://localhost:8081/repository/gar-release/</url>
+		</repository>
+		<snapshotRepository>
+			<id>deployment</id>
+			<name>internal snapshot release</name>
+			<url>http://localhost:8081/repository/gar-snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 
 </project>
